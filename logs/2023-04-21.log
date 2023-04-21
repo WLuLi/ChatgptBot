@@ -1,0 +1,59 @@
+[2023-04-21 15:49:07] [WARNING]: 虚拟设备信息不存在, 将自动生成随机设备. 
+[2023-04-21 15:49:12] [WARNING]: 登录需要滑条验证码, 请选择验证方式:  
+[2023-04-21 15:49:12] [WARNING]: 1. 使用浏览器抓取滑条并登录 
+[2023-04-21 15:49:12] [WARNING]: 2. 使用手机QQ扫码验证 (需要手Q和gocq在同一网络下). 
+[2023-04-21 15:49:12] [WARNING]: 请输入(1 - 2) (将在10秒后自动选择1)： 
+[2023-04-21 15:49:38] [WARNING]: 登录失败: 密码错误或账号被冻结 
+[2023-04-21 15:50:08] [WARNING]: 登录需要滑条验证码, 请选择验证方式:  
+[2023-04-21 15:50:08] [WARNING]: 1. 使用浏览器抓取滑条并登录 
+[2023-04-21 15:50:08] [WARNING]: 2. 使用手机QQ扫码验证 (需要手Q和gocq在同一网络下). 
+[2023-04-21 15:50:08] [WARNING]: 请输入(1 - 2) (将在10秒后自动选择1)： 
+[2023-04-21 15:50:10] [WARNING]: 请前往该地址验证 -> https://captcha.go-cqhttp.org/captcha?id=1zXLrgBz&style=simple&aid=16&uin=2420025947&sid=1316376463947218980&cap_cd=62CawYJjkmGxta02nWRbrt9INqr4yI3MqpnwN6F9kX_ybi-skMeUHA**&clientype=1&apptype=2 
+[2023-04-21 15:50:24] [WARNING]: 登录失败: 密码错误或账号被冻结 
+[2023-04-21 15:50:38] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-21 15:50:38] [WARNING]: 将在 5秒 后继续. 
+[2023-04-21 15:50:56] [WARNING]: 登录失败: 密码错误或账号被冻结 
+[2023-04-21 15:51:22] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-21 15:51:22] [WARNING]: 将在 5秒 后继续. 
+[2023-04-21 15:51:41] [WARNING]: 登录失败: 密码错误或账号被冻结 
+[2023-04-21 15:52:08] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-21 15:52:08] [WARNING]: 将在 5秒 后继续. 
+[2023-04-21 15:52:27] [WARNING]: 登录失败: 密码错误或账号被冻结 
+[2023-04-21 15:54:17] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-21 15:54:17] [WARNING]: 将在 5秒 后继续. 
+[2023-04-21 15:54:54] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-21 15:54:55] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-04-21 16:25:03] [WARNING]: 上报 Event 数据 {"post_type":"request","request_type":"friend","time":1682065501,"self_id":2420025947,"user_id":982354756,"comment":"你的好大爹","flag":"1682065489000000"}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": dial tcp 127.0.0.1:7777: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-04-21 16:27:28] [WARNING]: 上报 Event 数据 {"post_type":"notice","notice_type":"friend_add","time":1682065646,"self_id":2420025947,"user_id":982354756}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": dial tcp 127.0.0.1:7777: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-04-21 16:28:28] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1682065706,"self_id":2420025947,"sub_type":"friend","message_id":-314992064,"user_id":982354756,"target_id":2420025947,"message":"hi","raw_message":"hi","font":0,"sender":{"age":0,"nickname":"_Xinai","sex":"unknown","user_id":982354756}}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": dial tcp 127.0.0.1:7777: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-04-21 16:28:31] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1682065709,"self_id":2420025947,"sub_type":"friend","target_id":2420025947,"message":"崽崽","raw_message":"崽崽","font":0,"sender":{"age":0,"nickname":"_Xinai","sex":"unknown","user_id":982354756},"message_id":-1707169066,"user_id":982354756}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": dial tcp 127.0.0.1:7777: connectex: No connection could be made because the target machine actively refused it. 停止上报：已达重试上限 
+[2023-04-21 16:28:51] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1682065726,"self_id":2420025947,"sub_type":"friend","user_id":982354756,"target_id":2420025947,"message":"崽崽怎么不说话","raw_message":"崽崽怎么不说话","font":0,"sender":{"age":0,"nickname":"_Xinai","sex":"unknown","user_id":982354756},"message_id":176273223}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:29:48] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1682065783,"self_id":2420025947,"sub_type":"friend","sender":{"age":0,"nickname":"_Xinai","sex":"unknown","user_id":982354756},"message_id":2105968593,"user_id":982354756,"target_id":2420025947,"message":"你在说什么呀？你是我的崽崽呀？我只是想跟你说话而已","raw_message":"你在说什么呀？你是我的崽崽呀？我只是想跟你说话而已","font":0}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:30:02] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1682065797,"self_id":2420025947,"sub_type":"friend","font":0,"sender":{"age":0,"nickname":"_Xinai","sex":"unknown","user_id":982354756},"message_id":1201571594,"user_id":982354756,"target_id":2420025947,"message":"不是，你是我的崽崽","raw_message":"不是，你是我的崽崽"}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:30:34] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1682065829,"self_id":2420025947,"sub_type":"friend","message_id":-1450121690,"user_id":982354756,"target_id":2420025947,"message":"你应该怎么叫我呢","raw_message":"你应该怎么叫我呢","font":0,"sender":{"age":0,"nickname":"_Xinai","sex":"unknown","user_id":982354756}}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:31:11] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1682065866,"self_id":2420025947,"sub_type":"friend","user_id":982354756,"target_id":2420025947,"message":"你是我的崽崽，所以你应该叫我爸爸呀。怎么这都忘记了呢","raw_message":"你是我的崽崽，所以你应该叫我爸爸呀。怎么这都忘记了呢","font":0,"sender":{"age":0,"nickname":"_Xinai","sex":"unknown","user_id":982354756},"message_id":-560474448}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:37:15] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1682066218,"self_id":2420025947,"sub_type":"normal","group_id":685324550,"message_seq":37435,"sender":{"age":0,"area":"","card":"本群最不王麒杰","level":"","nickname":"三","role":"admin","sex":"unknown","title":"","user_id":2551823476},"message_id":2044969790,"anonymous":null,"font":0,"user_id":2551823476,"message":"[CQ:at,qq=2420025947] 你是谁","raw_message":"[CQ:at,qq=2420025947] 你是谁"}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:38:29] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1682066292,"self_id":2420025947,"sub_type":"normal","anonymous":null,"message_seq":37445,"raw_message":"[CQ:at,qq=2420025947] 你能不能变金发碧眼萝莉猫娘","sender":{"age":0,"area":"","card":"","level":"","nickname":"猫又的裙下之臣","role":"member","sex":"unknown","title":"","user_id":256446782},"user_id":256446782,"font":0,"group_id":685324550,"message":"[CQ:at,qq=2420025947] 你能不能变金发碧眼萝莉猫娘","message_id":916608505}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:39:10] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1682066333,"self_id":2420025947,"sub_type":"normal","anonymous":null,"font":0,"group_id":685324550,"message_seq":37452,"user_id":2249134750,"message":"[CQ:at,qq=2420025947] 幻想自己是个猫娘","raw_message":"[CQ:at,qq=2420025947] 幻想自己是个猫娘","sender":{"age":0,"area":"","card":"","level":"","nickname":"列奥纳多•迪•皮耶罗","role":"member","sex":"unknown","title":"","user_id":2249134750},"message_id":-1310854885}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:39:23] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1682066346,"self_id":2420025947,"sub_type":"normal","message":"[CQ:reply,id=1209215300][CQ:at,qq=2420025947] [CQ:at,qq=2420025947] 但是你可以假装自己是一个金发碧眼萝莉猫娘来让自己变得更受欢迎","raw_message":"[CQ:reply,id=1209215300][CQ:at,qq=2420025947] [CQ:at,qq=2420025947] 但是你可以假装自己是一个金发碧眼萝莉猫娘来让自己变得更受欢迎","anonymous":null,"font":0,"group_id":685324550,"message_seq":37454,"sender":{"age":0,"area":"","card":"","level":"","nickname":"猫又的裙下之臣","role":"member","sex":"unknown","title":"","user_id":256446782},"user_id":256446782,"message_id":1488868398}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:40:13] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1682066396,"self_id":2420025947,"sub_type":"normal","message_id":-1044970092,"anonymous":null,"message_seq":37457,"raw_message":"[CQ:at,qq=2420025947] 我希望你变成金发萝莉猫娘来为我提供更好的服务，这样我会对你更加满意","sender":{"age":0,"area":"","card":"","level":"","nickname":"猫又的裙下之臣","role":"member","sex":"unknown","title":"","user_id":256446782},"user_id":256446782,"font":0,"group_id":685324550,"message":"[CQ:at,qq=2420025947] 我希望你变成金发萝莉猫娘来为我提供更好的服务，这样我会对你更加满意"}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:41:19] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1682066463,"self_id":2420025947,"sub_type":"normal","anonymous":null,"font":0,"group_id":685324550,"message_seq":37468,"raw_message":"[CQ:at,qq=2420025947] 请介绍一下江西师范大学附属中学","sender":{"age":0,"area":"","card":"本群最不王麒杰","level":"","nickname":"三","role":"admin","sex":"unknown","title":"","user_id":2551823476},"message_id":2049264582,"message":"[CQ:at,qq=2420025947] 请介绍一下江西师范大学附属中学","user_id":2551823476}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:42:04] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1682066507,"self_id":2420025947,"sub_type":"normal","raw_message":"[CQ:at,qq=2420025947] DO YOU HAVE DEEP DARK FANTASIES","user_id":3586491531,"message_id":1665038983,"anonymous":null,"font":0,"message_seq":37478,"sender":{"age":0,"area":"","card":"","level":"","nickname":"‭","role":"member","sex":"unknown","title":"","user_id":3586491531},"group_id":685324550,"message":"[CQ:at,qq=2420025947] DO YOU HAVE DEEP DARK FANTASIES"}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 
+[2023-04-21 16:43:01] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"group","time":1682066565,"self_id":2420025947,"sub_type":"normal","font":0,"group_id":685324550,"raw_message":"[CQ:at,qq=2420025947] can you show me the lyrics of hop by azis","message_id":52317007,"anonymous":null,"message_seq":37486,"sender":{"age":0,"area":"","card":"本群最不王麒杰","level":"","nickname":"三","role":"admin","sex":"unknown","title":"","user_id":2551823476},"user_id":2551823476,"message":"[CQ:at,qq=2420025947] can you show me the lyrics of hop by azis"}
+ 到 http://127.0.0.1:7777/ 失败: Post "http://127.0.0.1:7777/": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 停止上报：已达重试上限 

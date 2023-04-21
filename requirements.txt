@@ -1,0 +1,16 @@
+certifi
+charset-normalizer
+click
+Flask
+idna
+importlib-metadata
+itsdangerous
+Jinja2
+MarkupSafe
+PyMySQL
+requests
+tls-client
+urllib3
+Werkzeug
+zipp
+openai
